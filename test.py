@@ -1,7 +1,4 @@
-films = ['Tron Legacy','Taxi 2', 'Taxi', 'Naruto','one piece']
-for film in films:
-    print('Я хочу посмотреть:', film)
-
-nomers = [28, 17, 11, 52, 45]
-for ci in nomers:
-    print(ci)
+numbers = [3, 12, 7, 25, 4, 18, 9, 30]
+for number in numbers:
+    if number > 10:
+        print(number * 2)
